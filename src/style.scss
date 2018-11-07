@@ -1,8 +1,6 @@
 // Imports
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
-
-
 // Mixins
 @mixin tag($bg-color) {
   -webkit-transition: color 0.2s;
@@ -42,17 +40,17 @@
     top: 0;
   }
 }
-// Mixins end
 
+// Mixins end
 body {
   font-family: 'Roboto', sans-serif;
 }
 
-.center{
+.center {
   text-align: center;
 }
 
-.loader{
+.loader {
   height: 60px;
 }
 
@@ -94,8 +92,7 @@ body {
 .developer {
   border: solid 1px #dcdcdc;
   border-radius: 5px;
-  margin: 5px;
-  padding: 20px 15px;
+  margin: 5px; // padding: 20px 15px;
   transition: 0.2s all ease;
   &:hover {
     box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
@@ -107,15 +104,16 @@ body {
   width: 50px;
 }
 
-
 .dev {
   display: flex;
+  flex-direction: column;
   .dev-avatar {
     flex: 1.5;
     text-align: center;
   }
   .dev-desc {
     flex: 5;
+    padding: 20px 15px;
     .dev--name {
       font-size: 18px;
       font-weight: 300;
@@ -166,11 +164,21 @@ body {
   }
 }
 
+.logo-corner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  img {
+    width: 75px;
+  }
+}
+
 .github-corner {
   svg {
     border: 0;
-    color:#fff;
-    fill:#151513;
+    color: #fff;
+    fill: #151513;
     position: absolute;
     right: 0;
     top: 0;
@@ -184,24 +192,24 @@ body {
 @keyframes octocat-wave {
   0%,
   100% {
-    transform: rotate(0)
+    transform: rotate(0);
   }
   20%,
   60% {
-    transform: rotate(-25deg)
+    transform: rotate(-25deg);
   }
   40%,
   80% {
-    transform: rotate(10deg)
+    transform: rotate(10deg);
   }
 }
 
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .github-corner:hover .octo-arm {
-    animation: none
+    animation: none;
   }
   .github-corner .octo-arm {
-    animation: octocat-wave 560ms ease-in-out
+    animation: octocat-wave 560ms ease-in-out;
   }
 }
 
@@ -214,5 +222,98 @@ body {
 @media screen and (max-width: 798px) {
   .developer-list {
     grid-template-columns: repeat(2, minmax(100%, 1fr));
+  }
+}
+
+@media screen and (max-width: 798px) {
+  .logo-corner,
+  .github-corner {
+    visibility: hidden;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  .event {
+    flex: 1;
+    min-width: 350px;
+    color: #313131;
+    border: solid 1px #dcdcdc;
+    border-radius: 5px;
+    margin: 5px;
+    transition: 0.2s all ease;
+    &:hover {
+      box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12),
+        0 1px 6px 0 rgba(0, 0, 0, 0.12);
+    }
+    .cover {
+      img {
+        width: 100%;
+      }
+    }
+    .body {
+      .title {
+        text-align: center;
+        margin: 10px 0;
+        h3 {
+          margin: 0px;
+        }
+      }
+      .detail {
+        .host-by {
+          text-align: center;
+          margin-bottom: 10px;
+          color: darkgray;
+        }
+        .location-date {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          margin-bottom: 10px;
+          .location {
+            display: flex;
+            justify-content: center;
+          }
+          .date {
+            display: flex;
+            justify-content: center;
+          }
+        }
+        .description {
+          color: darkgray;
+          padding: 20px;
+        }
+      }
+      .event--categories {
+        margin-top: 15px;
+        span {
+          @include tag(#ff8f29);
+        }
+      }
+      .buttons {
+        background-color: lightgrey;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        a {
+          color: black;
+          text-decoration: none;
+          width: 100%;
+          padding: 5px;
+          text-align: center;
+        }
+        a:hover {
+          background-color: darkgrey;
+        }
+      }
+    }
   }
 }

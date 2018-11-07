@@ -1,31 +1,19 @@
-# Awesome Developers
+# Awesome Tech Events
 
+#### A project to list the tech events around.
 
-
-
-[![GitHub contributors](https://img.shields.io/github/contributors/shreyas-a/awesome-developers.svg)](https://github.com/shreyas-a/awesome-developers/graphs/contributors)
-
-
-
-#### A project for first timers.
-It's a super simple project for first timers, based on modern JavaScript web stack. It gets the content from Github file `developers.json` and renders it in a beautiful way.
-
+It's a super simple project, based on modern JavaScript web stack. It gets the content from Github file `events.json` and renders it in a beautiful way.
 
 ##
 
 ### Contributing
 
-- You can simply add yourself in `developers.json`
+- You can simply add your event in `events.json`
+- You can create issues for your feedback, bugs and features.
 - Or, you can contribute the open issues.
 
-- Visit [this link](https://opensource.guide/how-to-contribute/) to get inspired about open source contribution.
+##
 
-### TODOs
-
-- Hosting on Heroku & adding CI, CD.
-- Add graphs for showing stats about developers.
+If you got anything to say, find us on twitter [@devncode17](https://twitter.com/devncode17).
 
 ##
-If you got anything to say, find me on twitter [@shreyas_a](https://twitter.com/shreyas_a).
-##
- 

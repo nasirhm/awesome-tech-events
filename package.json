@@ -1,7 +1,7 @@
 {
-  "name": "awesome-developers",
+  "name": "awesome-tech-events",
   "version": "1.0.0",
-  "description": "A curated list of awesome developers. Feel free to contribute! 🎓",
+  "description": "A curated list of awesome tech events. Feel free to contribute! 🎓",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server",
@@ -18,12 +18,15 @@
   "author": "Shreyas Agarkar <shreyas.a24@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shreyas-a/awesome-developers"
+    "url": "https://github.com/devncode/awesome-tech-events"
   },
   "license": "ISC",
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "webpack": "^3.5.5",
+    "html-webpack-plugin": "^2.30.1",
+    "copy-webpack-plugin": "^4.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -32,7 +35,6 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "clean-webpack-plugin": "^0.1.16",
-    "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.5",
     "eslint": "^4.8.0",
     "eslint-config-airbnb": "^16.0.0",
@@ -42,7 +44,6 @@
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.4.0",
     "file-loader": "^0.11.2",
-    "html-webpack-plugin": "^2.30.1",
     "husky": "^1.1.3",
     "lint-staged": "^8.0.4",
     "node-sass": "^4.5.3",
@@ -50,7 +51,6 @@
     "pretty-quick": "^1.8.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
-    "webpack": "^3.5.5",
     "webpack-dev-server": "^2.7.1",
     "webpack-merge": "^4.1.0"
   }

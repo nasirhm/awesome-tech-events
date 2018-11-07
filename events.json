@@ -1,0 +1,14 @@
+[
+  {
+    "eventName": "Event Name",
+    "description": "Sample description",
+    "hostBy": "Event Host By",
+    "categories": ["Category 1", "Category 2"],
+    "country": "County",
+    "city": "City",
+    "eventCover": "https://google.com",
+    "date": "00-00-0000",
+    "eventLink": "https://google.com",
+    "registerLink": "https://google.com"
+  }
+]
