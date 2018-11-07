@@ -1,14 +1,86 @@
 [
   {
-    "eventName": "Event Name",
-    "description": "Sample description",
-    "hostBy": "Event Host By",
-    "categories": ["Category 1", "Category 2"],
-    "country": "County",
-    "city": "City",
-    "eventCover": "https://google.com",
-    "date": "00-00-0000",
-    "eventLink": "https://google.com",
-    "registerLink": "https://google.com"
+    "eventName": "Flutter Meetup",
+    "description": "There is great stuff going in our tech community, since there’s one more addition to our community list i.e. Flutter Pakistan and they are organizing their first meetup, so join them if you are interested in learning about the upcoming technology from Google.",
+    "hostBy": "Flutter Pakistan",
+    "categories": ["Mobile App", "Cross Platform", "Flutter", "Flutter Pakistan", "Meetup",],
+    "country": "Pakistan",
+    "city": "Karachi",
+    "eventCover": "https://scontent.fkhi9-1.fna.fbcdn.net/v/t1.0-9/44486068_680885222294175_370829490676301824_n.jpg?_nc_cat=111&_nc_ht=scontent.fkhi9-1.fna&oh=d1b4a9a8f13aa80552d655886cc028b2&oe=5C6EEB66",
+    "date": "10-11-2018",
+    "eventLink": "http://bit.ly/2Dc6tmX",
+    "registerLink": "http://bit.ly/2SAOBHp"
+  },
+  {
+    "eventName": "021Disrupt 2018",
+    "description": "Once again 021Disrupt is happening, last year it was the premier conference showcasing the Pakistani startup ecosystem with the event drawing numerous international guests, ranging from speakers and thought leaders to corporates and venture capitalists. On the 10th and 11th of November 2018, the port city of Karachi will transform into the meeting point again of the global entrepreneurship community.\n If you haven’t registered yet for the event then click here. And don’t forget to use DISRUPT30 promo code to avail 30% discount.",
+    "hostBy": "The Nest I/O",
+    "categories": ["Startup", "Entrepreneurship", "021Disrupt", "Conference"],
+    "country": "Pakistan",
+    "city": "Karachi",
+    "eventCover": "https://scontent.fkhi9-1.fna.fbcdn.net/v/t1.0-9/42371008_1851373404911840_3211259975347208192_n.jpg?_nc_cat=109&_nc_ht=scontent.fkhi9-1.fna&oh=63194521ad704abbf4035991c2822e42&oe=5C6EDE44",
+    "date": "10-11-2018 - 11-11-2018",
+    "eventLink": "http://bit.ly/2DTVHUc",
+    "registerLink": "http://bit.ly/2P9zvts"
+  },
+  {
+    "eventName": "WordCamp 2018",
+    "description": "After the successful WordCamp in Karachi, The WordPress Community in Islamabad, is pleased to announce WordCamp Islamabad 2018 #WCISB, the free and open source CMS powering more than 30% of the Internet and over 75 million websites around the world.\n At the 2018 WordCamp Islamabad, there will be topics ranging from development, design, business, community, blogging and marketing.\n You’ll be surrounded by like-minded WordPress enthusiasts, marketers, content creators and developers. There you’ll learn from community members near and far as they speak about the latest trends in marketing, growing your business, the best WordPress practices and becoming a stronger developer.",
+    "hostBy": "Wordpress Islamabad",
+    "categories": ["Wordpress", "WordCamp", "Conference"],
+    "country": "Pakistan",
+    "city": "Islamabad",
+    "eventCover": "https://scontent.fkhi9-1.fna.fbcdn.net/v/t1.0-9/45433139_2111975345734015_6627321042387861504_n.jpg?_nc_cat=111&_nc_ht=scontent.fkhi9-1.fna&oh=bb5df4bf4488f5117403507cfcf3a84f&oe=5C87D83F",
+    "date": "10-11-2018",
+    "eventLink": "http://bit.ly/2NefXzj",
+    "registerLink": "http://bit.ly/2RVSRkz"
+  },
+  {
+    "eventName": "The Payoneer Forum: Expand Your Business Beyond Borders",
+    "description": "Payoneer is choice of all most all freelancers in Pakistan for receiving payment from clients and they are providing great services including Mastercard, local bank transfer and client billing. They have been very active in Pakistan for community relation and organising The Payoneer Forum event in major cities. This time it is happening in Islamabad, as they bring local freelancers, business owners and their brand ambassadors to come and discuss about our issues and give us professional tips.",
+    "hostBy": "Payoneer",
+    "categories": ["Payoneer", "Freelance", "Payment", "Conference"],
+    "country": "Pakistan",
+    "city": "Islamabad",
+    "eventCover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F51430380%2F48598095918%2F1%2Foriginal.jpg?w=800&auto=compress&rect=368%2C0%2C3400%2C1700&s=2c2fe80efa873055ec3cc86e2068f919",
+    "date": "11-11-2018",
+    "eventLink": "http://bit.ly/2CVFXxZ",
+    "registerLink": "http://bit.ly/2CVFXxZ"
+  },
+  {
+    "eventName": "Blockchain in Healthcare Meetup",
+    "description": "This will be a meetup with Doctors/Professionals/Medical IT experts as speakers/panelists to share the contemporary approaches and practices. We will discuss technologies and digital innovations in the healthcare/medical industry. Apart from that, we will also share and learn the role of Blockchain Technology in Healthcare/Medical Industry.",
+    "hostBy": "Blockchain Forum of Pakistan",
+    "categories": ["Blockchain", "Healthcare", "Blockchain Forum of Pakistan", "Meetup"],
+    "country": "Pakistan",
+    "city": "Karachi",
+    "eventCover": "https://scontent.fkhi9-1.fna.fbcdn.net/v/t1.0-9/42808523_10160971137515261_4085114584032083968_n.png?_nc_cat=111&_nc_ht=scontent.fkhi9-1.fna&oh=8e712405eef37bb8da3643dd9d65bbcd&oe=5C3FBBF9",
+    "date": "17-11-2018",
+    "eventLink": "http://bit.ly/2zORZr2",
+    "registerLink": "http://bit.ly/2SZrjLI"
+  },
+  {
+    "eventName": "DevFest 2018",
+    "description": "The global yearly developer conference by Google Developer Group is set to happen in Islamabad from 10 am to 6 pm on 17th Nov 2018 organized by GDG Islamabad. The theme of this year is "Digital WellBeing" where they will highlight and discuss the tools and features that help people better understand their tech usage, focus on what matters most, disconnect when needed, and create healthy habits so that LIFE, not the technology in it, stays front and center.",
+    "hostBy": "GDG Islamabad",
+    "categories": ["DevFest", "Google", "GDG Islamabad", "Conference"],
+    "country": "Pakistan",
+    "city": "Islamabad",
+    "eventCover": "https://scontent.fkhi9-1.fna.fbcdn.net/v/t1.0-9/45319876_2050483085015504_5438759353697959936_n.jpg?_nc_cat=109&_nc_ht=scontent.fkhi9-1.fna&oh=6bdc21f6c5410c3af5e1c78addfac482&oe=5C868366",
+    "date": "17-11-2018",
+    "eventLink": "http://bit.ly/2yoysfQ",
+    "registerLink": "http://bit.ly/2RFQGRa"
+  },
+  {
+    "eventName": "PyCon Pakistan 2018",
+    "description": "Python enthusiasts are you ready for the annual PyCon? In Lahore it is going to happen again, this time we will see many international speakers and a lot of local developers talking about their experiences.",
+    "hostBy": "PyCon",
+    "categories": ["Python", "PyCon", "Conference"],
+    "country": "Pakistan",
+    "city": "Lahore",
+    "eventCover": "https://scontent.fkhi9-1.fna.fbcdn.net/v/t1.0-9/45103373_1147369932082116_964919919793668096_n.jpg?_nc_cat=110&_nc_ht=scontent.fkhi9-1.fna&oh=a404eae2474c5d59b54ed6ea309457c9&oe=5C70AC12",
+    "date": "17-11-2018",
+    "eventLink": "http://bit.ly/2JOgGqO",
+    "registerLink": "http://bit.ly/2JKTpWA"
   }
 ]
