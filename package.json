@@ -12,6 +12,9 @@
       "pretty-quick --staged",
       "eslint src/ --fix",
       "git add"
+    ],
+    "ignore": [
+      "**/dist/*.min.js"
     ]
   },
   "keywords": [],
